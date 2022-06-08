@@ -1,2 +1,4 @@
-# reposit-rio-dio-bootcamp
-Repositório de conteúdos da DIO - Bootcamp Santander
+# Desafios de Projetos do Bootcamp Santander - DIO
+## Repositório de conteúdos/desafios
+
+### Links úteis
