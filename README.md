@@ -6,21 +6,9 @@
 	Repository for Bootcamp Santander projects and notes
 </h3>
 
-<p align="center">
-	<img src="https://img.shields.io/github/repo-size/MTHSalge/repositorio-dio-bootcamp?color=green"/>
-	<img src="https://img.shields.io/github/languages/count/MTHSalge/repositorio-dio-bootcamp?color=green"/>
-	<img src="https://img.shields.io/github/contributors/MTHSalge/repositorio-dio-bootcamp?color=green"/>
-</p>
-
 <h4 align="center">
 	Status: 🚧 In Construction
 </h4>
-
-<p align="center">
-	<a href="#about">About</a> •
-	<a href="#tech-stack">Tech Stack</a> •
-	<a href="#contact">Contact</a> 
-</p>
 
 ## About
 Here you'll find begginer web development projects that will use languages like HTML5, CSS3, JS, Angular and Java.
