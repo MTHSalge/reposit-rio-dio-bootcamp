@@ -1,0 +1,42 @@
+.flex-container{
+    max-width: 350px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.align-container{
+    align-items: center;
+}
+
+.item{
+    background-color: indigo;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.center{
+    align-self: center;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+.auto{
+    align-self: auto;
+}
+
+.stretch{
+    align-self: stretch;
+}
+
+.baseline{
+    align-self: baseline;
+}
