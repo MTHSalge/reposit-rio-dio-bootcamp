@@ -26,5 +26,10 @@ function addTask(description) {
 	taskContainer.appendChild(taskLabel);
 
 	taskList.appendChild(taskContainer);
+
+	newTask.addEventListener('click', removeTask);
 }
 
+function removeTask(){
+	this.parentElement.remove();
+}

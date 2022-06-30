@@ -1,28 +1,28 @@
 var count = 0;
+const minimo = -10;
+const maximo = 10;
 const CURRENT_NUMBER = document.getElementById('currentNumber');
 
 function increment(){
-    if(count==10){
-        // document.getElementById('increment').disabled=true;
-        CURRENT_NUMBER.innerHTML = count;
-    }
-    else{
+    if(count <= maximo){
         count++;
-        CURRENT_NUMBER.innerHTML = count;
     }
+    CURRENT_NUMBER.innerHTML = count;
+    atualizarTela();
 }
 
 function decrement(){
-    if(count>0){
-        // document.getElementById('decrement').disabled=true;
-    }
-    else{
+    if(count >= minimo){
         count--;
-        CURRENT_NUMBER.innerHTML = count;
-        if(count<0){
-        // document.getElementById('currentNumber').style.color='red';
-        }
     }
+    CURRENT_NUMBER.innerHTML = count;
+    atualizarTela();
+}
+
+function atualizarTela(){
+    document.getElementById('decrement').disabled = count <= minimo;
+    document.getElementById('increment').disabled = count >= maximo;
+    CURRENT_NUMBER.style.color = count < 0 ? 'red' : 'black';
 }
 
 //  Desafio 1 de utilizar .addEventListener
