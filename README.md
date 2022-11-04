@@ -7,7 +7,7 @@
 </h3>
 
 <h4 align="center">
-	Status: 🚧 In Construction
+	Status: ✔ Finished
 </h4>
 
 ## About
